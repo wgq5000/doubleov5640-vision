@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Fri Mar 27 18:51:54 2020
+# Process ID: 2780
+# Current directory: D:/WANGFEI/2019project/Mizar-V1.0-CD/04_SDK_Demo/21_double_ov5640_hdmi/double_ov5640/double_ov5640.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/WANGFEI/2019project/Mizar-V1.0-CD/04_SDK_Demo/21_double_ov5640_hdmi/double_ov5640/double_ov5640.sdk/webtalk/webtalk.log
+# Journal file: D:/WANGFEI/2019project/Mizar-V1.0-CD/04_SDK_Demo/21_double_ov5640_hdmi/double_ov5640/double_ov5640.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

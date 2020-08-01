@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 31 22:13:42 2020
+# Process ID: 6712
+# Current directory: G:/eda-project/double5640_new
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4860 G:\eda-project\double5640_new\double5640_new.xpr
+# Log file: G:/eda-project/double5640_new/vivado.log
+# Journal file: G:/eda-project/double5640_new\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project G:/eda-project/double5640_new/double5640_new.xpr
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 

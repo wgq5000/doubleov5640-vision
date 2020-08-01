@@ -1,0 +1,50 @@
+
+//------------------------------------------------------
+        OV5640 image sensor datasheet 研读总结
+------------------------------------------------------//
+
+1. Bayer pattern， fps
+
+
+2. The OV5640 sensor has an image array of 2624 columns by 1964 rows，(2592x1944) are active pixels and can be output.
+   The other pixels are used for black level calibration and interpolation.
+   总像素点：2624*1964， 有效探测像素点：2592*1944， 其他像素点用于黑色校准和插值
+
+3. VCM driver
+   VCM（voice coil driver）- 音圈马达（电机），智能手机的摄像头里面全都要用到VCM马达，可以调节Lens的位置以改变焦距，是摄像呈现最清晰的状态。
+
+
+4. ISP Block - Image Signal Processing 图像信号处理模块
+   主要用来对前端图像传感器输出信号处理的单元，以匹配不同厂商的图象传感器。
+
+   ISP vflip，  ISP mirror
+
+5. AEC/AGC 用于调整图像的亮度（image brightness）
+   exposure time and gain除了可以自动控制，还可以手动地外部控制。
+
+   in order to achieve best SNR， extending the exposure time is always preferred rather than raising the gain when the current illumination is getting brighter. 
+   Vice versa, under dark conditions, the action to decrease the gain is always taken prior to shortening the exposure time.
+
+
+6. DPC: defect pixel cancellation  <== 由于加工等原因，在传感器阵列中可能会存在一定数量有缺陷的像素点
+   these bad or wounded pixels will generate wrong color values
+   主要分为两类：Black pixel cancellation， white pixel cancellation
+
+
+7. DVP：formats supported ==> compression mode， HSYNC mode， CCIR656 mode， test pattern mode
+
+
+8. VGA：video graphic array 视频图形阵列，是一种基于模拟信号显示，由IBM在1987年随PS/2机一起推出的一种视频传输标准，R,G,B管脚电压范围为0.7V Vpp；
+   优点： 具有分辨率高、显示速率快、颜色丰富等优点，在彩色显示器领域得到了广泛的应用。
+   不足： 模拟信号显示，不支持热插拔，不支持音频传输；
+
+
+9. VGA与HDMI视频传输标准对比  ==>  参见文档说明：http://www.360doc.com/content/14/0308/09/7383055_358706259.shtml
+
+
+
+
+
+
+
+
